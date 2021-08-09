@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HawkSoftAssesment", "HawkSoftAssesment\HawkSoftAssesment.csproj", "{5719294F-4E12-4637-93AF-A3A75AEBCD9B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DatabaseScripts", "DatabaseScripts", "{A20AB47C-E8A2-4076-A4EC-26F1F8CA944E}"
+	ProjectSection(SolutionItems) = preProject
+		DatabaseScripts\CreateDatabase.sql = DatabaseScripts\CreateDatabase.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5719294F-4E12-4637-93AF-A3A75AEBCD9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5719294F-4E12-4637-93AF-A3A75AEBCD9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5719294F-4E12-4637-93AF-A3A75AEBCD9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5719294F-4E12-4637-93AF-A3A75AEBCD9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5235CF77-7B83-475C-9CB3-E0F90873A908}
+	EndGlobalSection
+EndGlobal

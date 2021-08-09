@@ -1,0 +1,50 @@
+<form novalidate #form="ngForm" (submit)="onSubmit(form)">
+  <input type="hidden" name="id"
+         value="contractService.formData.id" />
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label>First Name</label>
+      <input class="form-control form-control-lg" placeholder="First Name"
+             name="firstName" #firstname="ngModel" [(ngModel)]="contactService.formData.firstName" required />
+    </div>
+    <div class="form-group col-md-6">
+      <label>Last Name</label>
+      <input class="form-control form-control-lg" placeholder="Last Name"
+             name="lastName" #firstname="ngModel" [(ngModel)]="contactService.formData.lastName" required />
+    </div>
+    <div class="form-group col-md-6">
+      <label>Email</label>
+      <input class="form-control form-control-lg" placeholder="Email"
+             name="email" #firstname="ngModel" [(ngModel)]="contactService.formData.email" required />
+    </div>
+    <div class="form-group col-md-6">
+      <label>Address</label>
+      <input class="form-control form-control-lg" placeholder="Address"
+             name="address" #firstname="ngModel" [(ngModel)]="contactService.formData.address" required />
+    </div>
+    <div class="form-group col-md-6">
+      <label>City</label>
+      <input class="form-control form-control-lg" placeholder="City"
+             name="city" #firstname="ngModel" [(ngModel)]="contactService.formData.city" required />
+    </div>
+    <div class="form-group col-md-6">
+      <label>State</label>
+      <input class="form-control form-control-lg" placeholder="State"
+             name="state" #firstname="ngModel" [(ngModel)]="contactService.formData.state" required />
+    </div>
+    <div class="form-group col-md-6">
+      <label>Zipcode</label>
+      <input class="form-control form-control-lg" placeholder="Zipcode"
+             name="zipcode" #firstname="ngModel" [(ngModel)]="contactService.formData.zipcode" required />
+    </div>
+    <div class="row col-md-6">
+
+    </div>
+    <div class="form-group col-md-3">
+      <button class="btn btn-primary btn-md btn-block" type="submit" [disabled]="form.invalid">Submit</button>
+    </div>
+    <div class="col-md-3">
+      <button class="btn  btn-md btn-warning btn-block" (click)="clearForm()" type="reset">Clear Form</button>
+    </div>
+  </div>
+</form>
